@@ -18,11 +18,11 @@ TIME_ZONES = [
 ]
 
 TRIGGER_MAP = {
-  'US/Pacific' => %w(PDT PST PACIFIC P #P #SF #S),
+  'US/Pacific' => %w(PDT PST PACIFIC P #P SF #S S),
   'US/Mountain' => %w(MDT MST MOUNTAIN M #M),
   'US/Central' => %w(CDT CST CENTRAL C #C),
   'US/Eastern' => %w(EDT EST EASTERN E #E),
-  'Europe/Warsaw' => %w(CEST CET CE #CE #W #WAW)
+  'Europe/Warsaw' => %w(CEST CET CE #W W WAW)
 }
 
 def do_times(phrase)
